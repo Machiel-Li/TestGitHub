@@ -44,7 +44,7 @@ BOOL CTestGitHubDoc::OnNewDocument()
 		return FALSE;
 
 	// TODO: 在此添加重新初始化代码
-	SetTitle(TEXT("我爱中华TestBranchaaa"));
+	SetTitle(TEXT("我爱中华TestBranchbbb"));
 	// (SDI 文档将重用该文档)
 
 	return TRUE;
