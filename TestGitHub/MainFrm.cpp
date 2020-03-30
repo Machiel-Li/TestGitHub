@@ -51,6 +51,8 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	}
 	m_wndStatusBar.SetIndicators(indicators, sizeof(indicators)/sizeof(UINT));
 
+	SetTitle(TEXT("真正的中国人"));
+
 	return 0;
 }
 
